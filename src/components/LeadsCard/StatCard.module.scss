@@ -1,0 +1,156 @@
+
+.card {
+  background: var(--card-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+
+
+  width:220px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.card-mobile {
+  background: var(--card-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-mobile .iconContainer {
+  background-color: #e6f9f0;
+  border-radius: 30%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-mobile .iconContainer svg {
+  width: 20px;
+  height: 20px;
+}
+
+.card-mobile .content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  width: 10px;
+}
+
+.card-mobile .title {
+  font-size: 13px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.card-mobile .value {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color)
+}
+
+.card-mobile .footer {
+  display: flex;
+  align-items: flex-start;
+    flex-direction: column;
+width: 90px;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.card-mobile .positive {
+  color: #28c76f;
+}
+
+.card-mobile .negative {
+  color: #ea5455;
+}
+
+.card-mobile .arrowIcon {
+  font-size: 12px;
+}
+
+.card-mobile .percentage {
+  font-weight: 600;
+}
+
+.card-mobile .footerText {
+  color: var(--text-color);
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.iconContainer {
+  border-radius: 30%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-color)
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.arrowIcon {
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+.percentage {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.footerText {
+  font-size: 12px;
+  color: var(--text-color);
+}
+
+.positive {
+  color: #28c76f;
+}
+
+.negative {
+  color: #ea5455;
+}
+
+.divider {
+  height: 100%;
+  width: 1px;
+  background-color: #e0e0e0; 
+  margin: 0.5rem 0;
+}

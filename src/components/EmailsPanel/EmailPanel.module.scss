@@ -1,0 +1,30 @@
+
+.emailTabs {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 0.5rem;
+
+  .tabButton {
+    background: transparent;
+    border: none;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+
+    &.activeTab {
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+      font-weight: 500;
+    }
+  }
+}
+
+ .noRecords {
+    color: #999;
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
