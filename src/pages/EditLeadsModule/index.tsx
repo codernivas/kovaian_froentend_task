@@ -152,8 +152,9 @@ const EditLeadsModule = () => {
                   defaultValue="Mr."
                 >
                   <option value="Mr.">Mr.</option>
+                  <option value="Mrs.">Mrs.</option>
+                  <option value="Mss.">Mss.</option>
                   <option value="Ms.">Ms.</option>
-                  <option value="Dr.">Dr.</option>
                 </select>
                 <FaChevronDown className={styles.dropdownIcon} />
               </div>

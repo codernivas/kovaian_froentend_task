@@ -21,7 +21,7 @@ interface SidebarProps {
 const items = [
   { icon: <HiOutlineHome />, label: "Dashboard", path: "/dashboard" },
   { icon: <BiBarChartSquare />, label: "Leads", path: "/leads" },
-  { icon: <FaCog />, label: "Settings", path: "/settings" },
+  // { icon: <FaCog />, label: "Settings", path: "/settings" },
 ];
 const Sidebar: React.FC<SidebarProps> = ({
   isCollapsed,
